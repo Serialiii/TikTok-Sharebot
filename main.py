@@ -26,7 +26,7 @@ except:
                 videoid = r.url.split("https://m.tiktok.com/v/")[1].split(".html")[0]
             except:
                 print(Colorate.Horizontal(Colors.red_to_white, Center.XCenter("Please enter a valid URL!"), 1))
-    elif "https://www.tiktok.com/@" in videoid:
+    elif "https://www.tiktok.com/@" in videoid:nixedixs/video/7088392935745654021?_t=8Rkinkcydcr&_r=1
         videoid = videoid.split("https://www.tiktok.com/@")[1].split("/")[0]
     else:
         print(Colorate.Horizontal(Colors.red_to_white, Center.XCenter("Please enter a valid URL!"), 1))
